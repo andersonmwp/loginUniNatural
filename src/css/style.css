@@ -1,0 +1,75 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #291E15;
+}
+
+.login_container {
+    min-height: 100vh;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    min-width: 299px;
+    width: 100%;
+    height: auto;
+
+    margin: 3rem 0;
+}
+
+.form_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 250px;
+}
+
+.login_input {
+    width: 100%;
+    color: #EAE2D8;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 20px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #9B9B9B;
+
+    margin-bottom: 1.5rem;
+}
+
+.login_input textarea {
+    outline: none;
+}
+
+.login_botao {
+    background-color: #D5454A;
+
+    border: 1px solid #D5454A;
+    border-radius: 0px;
+
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    text-align: center;
+    font-weight: 300;
+
+    display: block;
+    width: 100%;
+    line-height: 1.5rem;
+    padding: 0.5rem 0;
+
+    transition: all .3s linear;
+}
+
+.login_botao:hover {
+    background-color: #FFF;
+    color: #D5454A;
+}
